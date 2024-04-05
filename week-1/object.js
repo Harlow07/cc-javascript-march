@@ -8,3 +8,8 @@ const car = {
 }
 
 document.write("<p>" + car.brand + "</p>");
+let score = 64;
+let grade;
+
+score > 70? grade = "A" : grade = "B";
+document.write(grade);
