@@ -10,10 +10,20 @@ console.log(cars.join("\n"));
 // sort() method
 const fruits = ["Banana", "Orange", "Mango", "Pineapple"];
 console.log(fruits.sort())
-console.log()
 
 const evenNumber = ["8", "4", "9", "5", "2"];
 console.log(evenNumber.sort());
+
+
+// reverse method
+console.log(fruits.reverse())
+console.log(evenNumber.reverse());
+
+
+document.write("<h1> This is Javascript </h1>");
+document.write("<h2>" + fruits.join (", ") + "</h2>");
+
+
 
 
 
