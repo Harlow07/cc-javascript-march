@@ -1,7 +1,7 @@
 // INPUT
 let price = prompt ("Type in the price of the items:");
 price = Number(price);
-// alert(typeof(price))m
+// alert(typeof(price))
 
 let moneyPaid = prompt ("Type in the money paid:");
 moneyPaid = Number(moneyPaid);
