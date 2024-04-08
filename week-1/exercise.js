@@ -17,5 +17,9 @@ alert(firstNumber + " + " + secondNumber + " = " + answer);
 
 // Convert minutes to seconds 
 
-let arrayOfNumbers = [2, 4, 6, 8, 10];
-console.log(arrayOfNumbers[0]);
+// let arrayOfNumbers = [2, 4, 6, 8, 10];
+// console.log(arrayOfNumbers[0]);
+
+let finalMessage = "Something" + " ";
+finalMessage = finalMessage + "is better than nothing."
+console.log(finalMessage);
