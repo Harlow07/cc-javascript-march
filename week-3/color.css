@@ -1,0 +1,15 @@
+#colorDisplay {
+    width: 500px;
+    height: 400px;
+    background-color: green;
+    margin-bottom: 20px;
+    margin: auto;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor:pointer;
+    background-color: red;
+}
