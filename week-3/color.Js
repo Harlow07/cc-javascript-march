@@ -1,4 +1,4 @@
-const colors = ["red", "blue", "green", "yellow", "purple", "brown", "lemon"];
+const colors = ["red", "blue", "green", "yellow", "purple", "brown", "lemon", "black", "gold"];
         let currentIndex = 0;
         const colorDisplay = document.getElementById("colorDisplay");
         const nextButton = document.getElementById("nextButton");
@@ -12,7 +12,13 @@ const colors = ["red", "blue", "green", "yellow", "purple", "brown", "lemon"];
             displayColor();
         }
 
+        function prevColor() {
+            currentIndex = (currentIndex - 1) % colors.length;
+            displayColor();
+        }
+
         nextButton.addEventListener("click", nextColor);
+        prevButton.addEventListener("click", prevColor);
 
         
         displayColor();
